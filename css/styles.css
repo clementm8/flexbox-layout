@@ -1,0 +1,598 @@
+
+/* Remove bullet point from list items */
+nav ul,
+footer ul{
+    list-style: none;
+}
+
+/* Remove underline from anchor tags */
+*{
+    text-decoration: none;
+}
+/* Typography */
+
+header p{
+    font-size: 2.125rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+header a {
+    font-size: 0.9rem;
+}
+
+p{
+    font-size: 1.125rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1{
+    color: #44580F;
+    font-size: 2.25rem;
+}
+
+.h1,
+a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 2.125rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: #fff;
+}
+
+.project-flex-item{
+    font-size: 1.2rem;
+}
+
+/* Header */
+
+.nav{
+    background-color: #44580F;
+    width: 24.7%;
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.25%;
+    width: 100%;
+    padding: 0 0.2rem;
+    margin: 0 auto;
+}
+
+nav a{
+    color: #fff;
+    display: block;
+    padding: 1rem 1.15rem;
+}
+
+nav a:hover{
+    color: #44580F;
+}
+
+nav li:hover{
+    background-color: #fff;
+}
+
+header p{
+    display: block;
+    padding:  1rem 1rem;;
+    background: url("../img/earth-view-small.webp") center bottom / cover no-repeat;
+    min-height: 15rem;
+}
+
+h1{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+span.fixed-width,
+.image-text{
+    padding-top: 6rem;
+    display: inline-block;
+}
+
+/* main */
+
+/* Home Page */
+
+.home-section{
+    padding: 0 1rem;
+    margin-top: 2rem;
+}
+
+.home-section p{
+    margin-top: 1rem;
+}
+
+.home-section a {
+    display: block;
+    background-color: #44580F;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+}
+
+/* Projects Page */
+
+.flex-projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects-section1-h2{
+    display: block;
+    padding:  1rem 1.5rem;
+    background: url("../img/forest-landscape-small.webp") center bottom / cover no-repeat;
+    min-height: 15rem;
+    color: #fff;
+    min-width: 100vw;
+    margin-bottom: 2rem;
+}
+
+.projects-section2{
+    padding: 3rem 1.5rem 0 1.5rem;
+}
+
+.projects-section2-h2{
+    padding-bottom: 1.5rem;
+}
+
+.projects-section3{
+    padding: 1.5rem 1.5rem;
+}
+
+.projects-section2 img,
+.projects-section3 img{
+    padding-bottom: 1.5rem;
+}
+
+.project-flex-item{
+    max-width: 40%;
+    text-align: center;
+    background-color: #44580F;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-flex-item a:hover{
+    background-color: black;
+}
+
+.flex-projects a{
+    color: #fff;
+}
+
+.projects-section1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Services Page */
+
+.services-section1-h2{
+    display: block;
+    padding:  1rem 1.5rem;
+    background: url("../img/cotton-field-small.webp") center bottom / cover no-repeat;
+    min-height: 15rem;
+    color: #fff;
+    min-width: 100vw;
+    margin-bottom: 2rem;
+}
+
+.services-section1-h3{
+    padding-left: 1.5rem;
+}
+
+.services-section-sub{
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.services-section-sub-p{
+    font-weight: bold;
+}
+
+.services-section2{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services-section2-div{
+    max-width: 85%;
+    text-align: center;
+    background-color: #44580F;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.services-section2-h3:hover{
+    background-color: black;
+}
+
+.services-section2-h3{
+    color: #fff;
+}
+
+.services-section3-h3{
+    font-size: 2rem;
+}
+
+.services-section3-p{
+    margin-top: 1.5rem;
+}
+
+.services-section3{
+    background: url(/img/sunset-small.webp) center bottom / cover no-repeat;
+    display: block;
+    padding: 2rem 2rem 0 2rem;
+    margin-top: 3rem;
+    min-height: 35rem;
+    min-width: 100vw;
+}
+
+.services-section2-h3 a{
+    display: inline-block;
+    width: 100%;
+}
+
+.services-section3-div{
+    background-color: #fff;
+    min-height: 35rem;
+    opacity: .8;
+    padding: 3rem 1.5rem 0 1.5rem;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #f5F5F5;
+    padding: 1rem;
+}
+
+footer p{
+    text-align: center;
+    padding-bottom: 1rem ;
+}
+
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2%;
+    margin: 0 auto;
+    padding: 0;
+    max-width: max-content;
+}
+
+footer a{
+    color: black;
+    min-width: 100%;
+    display: block;
+    min-height: 100%;
+    padding: 1rem;
+}
+
+footer li:hover{
+    background-color: black;
+}
+
+footer a:hover{
+    color: #fff;
+}
+
+.footer-nav{
+    display: block;
+    background-color: #fff;
+    width: 45%;
+    margin-bottom: 1rem;
+    text-align: center;
+    border: 0.063rem solid #E2E2E2;
+}
+
+/* Media Queries */ 
+
+@media screen and (min-width: 800px){
+    header>.fixed-width{
+        text-align: left;
+        margin-left: 2rem;
+    }
+    header p{
+        padding-left: 2rem;
+        background: url("../img/earth-view-medium.webp") center bottom / cover no-repeat;
+    }
+
+    .flex-container{
+        display: flex;
+        align-items: baseline;
+    }
+    .flex-1,
+    .flex-2{
+        border: 3px solid #44580F;
+        margin: 2rem;
+        padding: 0 0 2rem 0;
+    }
+
+    .flex-1{
+        margin-right: 0;
+    }
+
+    .read-more{
+        max-width: max-content;
+    }
+    img{
+        padding-top: 0.5rem;
+    }
+    .projects-section2,
+    .projects-section3{
+        margin-left: 4rem;
+        padding-right: 5rem;
+    }
+
+    .projects-section1-h2{
+        background: url("../img/forest-landscape-medium.webp") center bottom / cover no-repeat;
+    }
+
+    footer{
+        padding: 2rem
+    }
+    footer p{
+        text-align: left;
+    }
+    .footer-nav{
+        width: 30%
+    }
+
+    .services-section1-h2{
+        background: url("../img/cotton-field-medium.webp") center bottom / cover no-repeat;
+    }
+
+    .services-section2{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .services-section2-div{
+        max-width: 30%;
+        flex-wrap: wrap-reverse;
+        background-color: #fff;
+    }
+
+    .services-section3{
+        background: url(/img/sunset-medium.webp) center bottom / cover no-repeat;
+    }
+
+    .services-section2-h3{
+        background-color: #44580F;
+        display: inline-block;
+        min-width: 100%;
+    }
+
+    .services-section3-div{
+
+        min-height: 20rem;
+        max-width: 74%;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        margin-left: 25%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    header>.fixed-width{
+        margin: 1rem auto;
+    }
+
+    .fixed-nav{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    nav ul{
+        background-color: #fff;
+        margin-right: 0;
+        width: 39.5%;
+        height: 2.5rem;
+    }
+
+    nav a{
+        min-width: max-content;
+    }
+
+    li.nav{
+        max-width: max-content;
+        width: 60%;
+    }
+
+    header nav{
+        background-color: #44580F;
+    }
+
+    header p{
+        background: url("../img/earth-view-large.webp") center top  / cover no-repeat;
+        min-height: 25rem;
+    }
+
+    header span.fixed-width{
+        display: block;
+    }
+
+    .image-text{
+        display: block;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .flex-container{
+        align-items: stretch;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .flex-1{
+      min-width: 60%;
+      padding-bottom: 0;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .flex-2{
+      margin-right: 0;
+    }
+
+    .fixed-width,
+    .project-flex,
+    .projects-section2,
+    .projects-section3{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .project-flex-item{
+        max-width: 32%;
+    }
+
+    .project-flex{
+        justify-content: space-between;
+    }
+
+    .projects-text{
+        display: block;
+        max-width: 1200px;
+        margin: 7% auto;
+    }
+
+
+    .projects-section1-h2{
+        background: url("../img/forest-landscape-large.webp") center top 10% / cover no-repeat;
+    }
+
+    .projects-section2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 1.5rem 0;
+
+    }
+
+
+    .projects-section3{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 1.5rem 0;
+
+    }
+
+    
+    .projects-section2-h2,
+    .projects-section2-h3{
+        min-width: 100%;;
+    }
+
+
+    .projects-section2 img,
+    .section3-flex img{
+        min-width: 50%;
+    }
+
+    .projects-section2 p,
+    .section3-flex p{
+        max-width: 47%;
+    }
+
+    .projects-lower-section{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .project-flex a{
+        color: #fff;
+        background-color: #44580F;
+        display: inline-block;
+        min-width: 100%;
+    }
+
+    .project-flex-item{
+        background-color: #fff;
+    }
+
+    .section3-flex{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .project-flex-item{
+        flex-wrap: wrap-reverse;
+    }
+
+    .services-section1-h2{
+        min-height: 25rem;
+        background: url("../img/cotton-field-large.webp") center top 40% / cover no-repeat;
+    }
+
+    .projects-section1-h2{
+        min-height: 25rem;
+    }
+
+    .services-section2{
+        max-width: 1200px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .services-section3{
+        padding-left: 630px;
+        background: url(/img/sunset-large.webp) center top 40% / cover no-repeat;
+    }
+
+    .services-section3-div{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .services-section-sub{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    
+    footer ul{
+        flex-wrap: nowrap;
+    }
+    
+    footer p{
+        text-align: left;
+    }
+}
